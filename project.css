@@ -1,0 +1,131 @@
+*{
+		box-sizing: border-box;
+		font-family:Lato;
+	}
+	nav{
+		background:OrangeRed;
+		height: 80px;
+		width: 100%;
+	}
+	nav ul{
+		margin-right: 20px;
+	}
+	nav ul li{
+		display: inline-block;
+		line-height: 80px;
+		margin: 0 25px;
+	}
+	nav ul li a{
+		color: white;
+		font-size: 17px;
+		text-decoration:none;
+		font-family: sans-serif;
+	}
+	.column {
+		position: relative;
+		left: 31px;
+  float: left;
+  width: 36%;
+  padding: 10px;
+  height: 790px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#search-text-input{
+	border-top:thin solid  #e5e5e5;
+	border:1px solid #e5e5e5;
+	border-right: none;
+	float:left;
+	height:37px;
+	margin:.8em 0 0 .5em; 
+	outline:0;
+	padding:.4em 0 .4em .6em; 
+	width:215px; 
+}
+ 
+#button-holder{
+	border:1px solid #e5e5e5;
+	border-left: none;
+	float:left;
+	height:37px;
+	margin:11px 0 0 0;
+	text-align:center;
+	width:50px;
+}
+ .para{
+ 	font-size: 18px;
+ 	font-weight: 100;
+ 	word-spacing: 3px;
+ 	line-height: 25px;
+ 	color: grey;
+ }
+ img{
+ 	border-radius: 5px;
+ }
+ i{
+ 	color: white;
+ 	font-size: 22px;
+ }
+ #li{
+ 	position: relative;left: 335px;
+ }
+ .fh1{
+ 	font-family:Josefin Sans;
+ 	font-weight: 800; 
+ 	font-size: 55px;
+ 	color: navy;
+ }
+ .first img{
+ 	width:95%;height: 295px;position:relative;
+ }
+ h1{
+ 	font-family:Josefin Sans;font-weight: 900;color: navy;font-size: 25px;
+ }
+#but{
+background-color:OrangeRed;
+border:1px solid;
+color: white;
+}
+.second img{
+	position: relative;top:44px;width: 99%;height: 295px;
+}
+#sp{
+	position: relative;
+	top: 41px;
+}
+.second button{
+	position: relative;
+	top: 41px;
+}
+.third{
+	width: 25%;position: relative;left:45px;
+}
+#div3{
+	position: relative;top:128px;width:99%;height: 5px;border-radius: 15px;background-color: lightgrey;
+}
+.third  img{
+	position: relative;top:125px;width: 95%;height: 145px;
+}
+.third h3{
+	position: relative;top:125px;text-align: center;color: navy;
+}
+.third p{
+	position: relative;top:125px;text-align: center;
+}
+#fi1{
+	color: black;
+	font-size: 31px;
+	text-indent: 515px;
+}
+#fi2{
+	color: black;
+	font-size: 31px;
+	text-indent: 25px;
+}
+#fp{
+	text-indent: 525px;
+}
